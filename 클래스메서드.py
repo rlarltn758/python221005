@@ -4,6 +4,9 @@ class CoeffVar(object):
     @classmethod
     def mul(cls, fact):
         return cls.coefficient * fact 
+    @classmethod
+    def test(a):
+        return a
 
 #파생형식을 정의
 class MulFive(CoeffVar):
